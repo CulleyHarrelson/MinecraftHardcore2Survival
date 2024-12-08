@@ -1,8 +1,0 @@
-README.md
-setup.py
-src/minecraft_hardcore2survival.egg-info/PKG-INFO
-src/minecraft_hardcore2survival.egg-info/SOURCES.txt
-src/minecraft_hardcore2survival.egg-info/dependency_links.txt
-src/minecraft_hardcore2survival.egg-info/entry_points.txt
-src/minecraft_hardcore2survival.egg-info/requires.txt
-src/minecraft_hardcore2survival.egg-info/top_level.txt

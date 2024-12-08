@@ -19,7 +19,7 @@ setup(
     description="A tool to convert Minecraft hardcore worlds to survival mode",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/MinecraftHardcore2Survival",
+    url="https://github.com/CulleyHarrelson/MinecraftHardcore2Survival",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
