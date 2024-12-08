@@ -44,20 +44,6 @@ mc-hardcore2survival ~/Library/Application\ Support/ModrinthApp/profiles/1.21\ V
 - Python 3.7 or higher
 - nbtlib 2.0.0 or higher
 
-## Development
-
-To set up the development environment:
-
-1. Clone the repository
-2. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install development dependencies:
-   ```bash
-   pip install -e .
-   ```
 
 ## Contributing
 
