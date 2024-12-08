@@ -1,0 +1,2 @@
+[console_scripts]
+mc-hardcore2survival = minecraft_hardcore2survival.converter:main

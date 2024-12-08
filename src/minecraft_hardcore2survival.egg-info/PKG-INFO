@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: minecraft-hardcore2survival
+Version: 0.1.0
+Summary: A tool to convert Minecraft hardcore worlds to survival mode
+Home-page: https://github.com/yourusername/MinecraftHardcore2Survival
+Author: Jekyl-Gaming
+Author-email: harrelson@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: nbtlib>=2.0.0
+
+# MinecraftHardcore2Survival
+
+A Python tool to convert Minecraft hardcore worlds to survival mode. This tool allows you to continue playing your hardcore world after death by converting it to survival mode.
+
+## Features
+
+- Converts hardcore worlds to survival mode
+- Automatically creates backups before conversion
+- Command-line interface for easy use
+- Safe error handling with automatic backup restoration
+
+## Installation
+
+You can install this package directly from GitHub:
+
+```bash
+git clone https://github.com/yourusername/MinecraftHardcore2Survival
+cd MinecraftHardcore2Survival
+pip install -e .
+```
+
+## Usage
+
+### Command Line
+
+```bash
+mc-hardcore2survival path/to/level.dat
+```
+
+### Example
+
+```bash
+mc-hardcore2survival ~/.minecraft/saves/my_hardcore_world/level.dat
+```
+
+## Safety Features
+
+- Automatic backup creation before any modifications
+- Automatic backup restoration if anything goes wrong
+- Non-destructive operation - original files are preserved
+
+## Requirements
+
+- Python 3.7 or higher
+- nbtlib 2.0.0 or higher
+
+## Development
+
+To set up the development environment:
+
+1. Clone the repository
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install development dependencies:
+   ```bash
+   pip install -e .
+   ```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Thanks to the Minecraft community
