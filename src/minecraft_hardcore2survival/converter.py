@@ -52,6 +52,7 @@ def convert_hardcore_to_survival(level_dat_path: str | Path) -> bool:
 
         # Set to survival mode (0)
         nbt_file["Data"]["Player"]["playerGameType"] = tag.Int(0)
+        nbt_file["Data"]["hardcore"] = tag.Byte(0)
 
         # Save the changes
         nbt_file.save()
