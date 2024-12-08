@@ -28,8 +28,10 @@ mc-hardcore2survival path/to/level.dat
 ```
 
 ### Example
+
 ```bash
 mc-hardcore2survival ~/Library/Application\ Support/ModrinthApp/profiles/1.21\ VP/saves/MyWorld/level.dat
+```
 
 ## Safety Features
 
